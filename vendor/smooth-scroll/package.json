@@ -2,7 +2,7 @@
   "_args": [
     [
       "smooth-scroll@16.1.3",
-      "/Users/rokaux/Sites/cartzilla-new"
+      "/Users/rokaux/Sites/vid-new"
     ]
   ],
   "_from": "smooth-scroll@16.1.3",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/smooth-scroll/-/smooth-scroll-16.1.3.tgz",
   "_spec": "16.1.3",
-  "_where": "/Users/rokaux/Sites/cartzilla-new",
+  "_where": "/Users/rokaux/Sites/vid-new",
   "author": {
     "name": "Chris Ferdinandi",
     "url": "http://gomakethings.com"

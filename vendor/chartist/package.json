@@ -2,7 +2,7 @@
   "_args": [
     [
       "chartist@0.11.4",
-      "/Users/rokaux/Sites/cartzilla-new"
+      "/Users/rokaux/Sites/vid-new"
     ]
   ],
   "_from": "chartist@0.11.4",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/chartist/-/chartist-0.11.4.tgz",
   "_spec": "0.11.4",
-  "_where": "/Users/rokaux/Sites/cartzilla-new",
+  "_where": "/Users/rokaux/Sites/vid-new",
   "author": {
     "name": "Gion Kunz"
   },
