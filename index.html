@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>VID | WEB v.1</title>
+  <!-- SEO Meta Tags-->
+  <meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
+  <meta name="keywords"
+        content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean">
+  <meta name="author" content="Createx Studio">
+  <!-- Viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon and Touch Icons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" color="#fe6a6a" href="safari-pinned-tab.svg">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
+  <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css"/>
+  <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css"/>
+  <link rel="stylesheet" media="screen" href="vendor/drift-zoom/dist/drift-basic.min.css"/>
+  <!-- Main Theme Styles + Bootstrap-->
+  <link rel="stylesheet" media="screen" href="css/theme.css">
+</head>
+<!-- Body-->
+<body class="handheld-toolbar-enabled">
+<!-- Sign in / sign up modal-->
+<main class="page-wrapper">
+
+  <!-- Navbar 3 Level (Light)-->
+  <header class="shadow-sm">
+    <!-- Topbar-->
+    <div class="topbar topbar-dark bg-dark">
+      <div class="container">
+        <div class="topbar-text dropdown d-md-none">
+          <a class="topbar-link dropdown-toggle" href="#"
+             data-bs-toggle="dropdown">Useful links</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="tel:00331697720"><i class="ci-support text-muted me-2"></i>(+591)
+              65458040</a>
+            </li>
+          </ul>
+        </div>
+        <div class="topbar-text text-nowrap d-none d-md-inline-block"><i class="ci-support"></i><span
+                class="text-muted me-1">Support</span><a class="topbar-link" href="tel:59165458040">(+591)
+          65458040</a>
+        </div>
+        <div class="tns-carousel tns-controls-static d-none d-md-block">
+          <div class="tns-carousel-inner"
+               data-carousel-options="{&quot;mode&quot;: &quot;gallery&quot;, &quot;nav&quot;: false}">
+            <div class="topbar-text">Bienestar natural, compartido globalmente.</div>
+            <div class="topbar-text">Conectamos salud y éxito en equipo</div>
+            <div class="topbar-text">Productos naturales, oportunidad ilimitada.</div>
+          </div>
+        </div>
+        <div class="ms-3 text-nowrap">
+          <a class="topbar-link me-4 d-none d-md-inline-block" target="_blank"
+             href="https://www.facebook.com/profile.php?id=100094977799477"><i class="ci-facebook"></i>FaceBook</a>
+          <div class="topbar-text dropdown disable-autohide">
+            <a class="topbar-link dropdown-toggle" href="#"
+               data-bs-toggle="dropdown"><img class="me-2"
+                                              src="img/flags/BOLIVIA.svg"
+                                              width="20"
+                                              alt="English">BOB
+              / $</a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li class="dropdown-item">
+                <select class="form-select form-select-sm">
+                  <option value="usd">$ BOB</option>
+                </select>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+    <div class="navbar-sticky bg-light">
+      <div class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand d-none d-sm-block flex-shrink-0" href="index.html"><img
+                  src="img/logo-dark.png" width="142" alt="Cartzilla"></a>
+          <a
+                  class="navbar-brand d-sm-none flex-shrink-0 me-2" href="index.html"><img src="img/logo-icon.png"
+                                                                                          width="74"></a>
+          <div class="input-group d-none d-lg-flex mx-4">
+            <input class="form-control rounded-end pe-5" type="text" placeholder="Buscar Producto"><i
+                  class="ci-search position-absolute top-50 end-0 translate-middle-y text-muted fs-base me-3"></i>
+          </div>
+          <div class="navbar-toolbar d-flex flex-shrink-0 align-items-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+            <a class="navbar-tool navbar-stuck-toggler" href="#">
+              <span class="navbar-tool-tooltip">Expand menu</span>
+              <div class="navbar-tool-icon-box"><i class="navbar-tool-icon ci-heart"></i></div>
+            </a>
+            <a target="_blank" class="navbar-tool ms-1 ms-lg-0 me-n1 me-lg-2"
+               href="http://ofi.vidcorporation.com/">
+              <div class="navbar-tool-icon-box bg-secondary dropdown-toggle"><i
+                      class="navbar-tool-icon ci-user"></i></div>
+              <div class="navbar-tool-text ms-n3"><small>Hola, Ofinet</small>Mi Ofinet</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-expand-lg navbar-light navbar-stuck-menu mt-n2 pt-0 pb-2">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Search-->
+            <div class="input-group d-lg-none my-3"><i
+                    class="ci-search position-absolute top-50 start-0 translate-middle-y text-muted fs-base ms-3"></i>
+              <input class="form-control rounded-start" type="text" placeholder="Search for products">
+            </div>
+            <!-- Departments menu-->
+            <ul class="navbar-nav navbar-mega-nav pe-lg-2 me-lg-2">
+              <li class="nav-item dropdown">
+                <a class="nav-link ps-lg-0" href="productos.html"
+                   d><i class="ci-view-grid me-2"></i>Productos</a>
+              </li>
+            </ul>
+            <!-- Primary menu-->
+            <ul class="navbar-nav">
+              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link" href="testimonios.html">Testimonios</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Hero slider-->
+  <section class="tns-carousel tns-controls-lg">
+    <div class="tns-carousel tns-nav-enabled">
+      <div class="tns-carousel-inner">
+        <img src="img/vid/sliders/4.gif" alt="Alt text">
+        <img src="img/vid/sliders/6.gif" alt="Alt text">
+        <img src="img/vid/sliders/2.gif" alt="Alt text">
+        <img src="img/vid/sliders/3.gif" alt="Alt text">
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Popular categories-->
+  <section class="container position-relative pt-3 pt-lg-0 pb-5 mt-lg-n10" style="z-index: 10;">
+    <div class="row">
+      <div class="col-xl-8 col-lg-9">
+        <div class="card border-0 shadow-lg">
+          <div class="card-body px-3 pt-grid-gutter pb-0">
+            <div class="row g-0 ps-1">
+              <div class="col-sm-4 px-2 mb-grid-gutter">
+                <a
+                        class="d-block text-center text-decoration-none me-1" href="#">
+                  <img
+                          class="d-block rounded mb-3" src="img/vid/productos/cara/2a.gif" alt="Prosta-Forte">
+                  <h3 class="fs-base pt-1 mb-0">Prosta-Forte</h3>
+                </a>
+              </div>
+              <div class="col-sm-4 px-2 mb-grid-gutter">
+                <a
+                        class="d-block text-center text-decoration-none me-1" href="#">
+                  <img
+                          class="d-block rounded mb-3" src="img/vid/productos/cara/4a.gif" alt="Artiflex">
+                  <h3 class="fs-base pt-1 mb-0">Aloe Vera</h3>
+                </a>
+              </div>
+              <div class="col-sm-4 px-2 mb-grid-gutter">
+                <a
+                        class="d-block text-center text-decoration-none me-1" href="#">
+                  <img
+                          class="d-block rounded mb-3" src="img/vid/productos/cara/3a.gif" alt="Body-esbelt">
+                  <h3 class="fs-base pt-1 mb-0">Body-esbelt</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop by brand-->
+  <section class="container py-lg-4 mb-4">
+    <h2 class="h3 text-center pb-4">Validado por:</h2>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-12"><a
+              class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-6 mb-grid-gutter" href="#"><img
+              class="d-block mx-auto" src="img/vid/senasag.jpg" style="width: 250px;" alt="Brand"></a></div>
+    </div>
+  </section>
+  <!-- Blog + Instagram info cards-->
+
+  <!-- Products grid (Trending products)-->
+  <section class="container pt-md-3 pb-5 mb-md-3">
+    <h2 class="h3 text-center">Mis Productos</h2>
+    <div class="row pt-4 mx-n2" id="productos">
+
+    </div>
+    <div class="text-center pt-3"><a class="btn btn-outline-accent" href="#">Mas Productos<i
+            class="ci-arrow-right ms-1"></i></a></div>
+  </section>
+
+
+  <section class="container-fluid px-0">
+    <div class="row g-0">
+      <div class="col-md-6">
+        <a target="_blank" class="card border-0 rounded-0 text-decoration-none py-md-4 bg-faded-primary"
+           href="https://www.facebook.com/profile.php?id=100094977799477">
+          <div class="card-body text-center">
+            <i class="ci-facebook h3 mt-2 mb-4 text-primary"></i>
+            <h3 class="h5 mb-1">Siguenos en facebook</h3>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6">
+        <a class="card border-0 rounded-0 text-decoration-none py-md-4 bg-faded-accent"
+           href="#">
+          <div class="card-body text-center">
+            <i class="ci-instagram h3 mt-2 mb-4 text-accent"></i>
+            <h3 class="h5 mb-1">Siguenos en Instagram</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- Footer-->
+<footer class="footer bg-dark pt-5">
+  <div class="pt-5 bg-darker">
+    <div class="container">
+      <hr class="hr-light mb-5">
+      <div class="row pb-2">
+        <div class="col-md-6 text-center text-md-start mb-4">
+          <div class="text-nowrap mb-4">
+            <a class="d-inline-block align-middle mt-n1 me-3" href="#"><img
+                    class="d-block" src="img/footer-logo-light.png" width="117" alt="Cartzilla"></a>
+            <div class="btn-group dropdown disable-autohide">
+              <button class="btn btn-outline-light border-light btn-sm dropdown-toggle px-2" type="button"
+                      data-bs-toggle="dropdown"><img class="me-2" src="img/flags/bolivia.svg" width="20"
+                                                     alt="English">BOB / $
+              </button>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6 text-center text-md-end mb-4">
+          <div class="mb-3">
+            <a class="btn-social bs-light bs-facebook ms-2 mb-2" href="#"><i
+                    class="ci-facebook"></i></a><a class="btn-social bs-light bs-instagram ms-2 mb-2"
+                                                   href="#"><i class="ci-instagram"></i></a><a
+                  class="btn-social bs-light bs-youtube ms-2 mb-2" href="#"><i class="ci-youtube"></i></a>
+          </div>
+          <img class="d-inline-block" src="img/cards-alt.png" width="187" alt="Payment methods">
+        </div>
+      </div>
+      <div class="pb-4 fs-xs text-light opacity-50 text-center text-md-start">© All rights reserved. Made by <a
+              class="text-light" href="https://createx.studio/" target="_blank" rel="noopener">FFP</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Toolbar for handheld devices (Default)-->
+<div class="handheld-toolbar">
+  <div class="d-table table-layout-fixed w-100"><a class="d-table-cell handheld-toolbar-item"
+                                                   href="#"><span class="handheld-toolbar-icon"><i
+          class="ci-heart"></i></span><span class="handheld-toolbar-label">Wishlist</span></a><a
+          class="d-table-cell handheld-toolbar-item" href="javascript:void(0)" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" onclick="window.scrollTo(0, 0)"><span class="handheld-toolbar-icon"><i
+          class="ci-menu"></i></span><span class="handheld-toolbar-label">Menu</span></a><a
+          class="d-table-cell handheld-toolbar-item" href="#"><span class="handheld-toolbar-icon"><i
+          class="ci-cart"></i><span class="badge bg-primary rounded-pill ms-1">4</span></span><span
+          class="handheld-toolbar-label">$0.00</span></a></div>
+</div>
+<!-- Back To Top Button--><a class="btn-scroll-top" href="#top" data-scroll><span
+        class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ci-arrow-up"> </i></a>
+<!-- Vendor scrits: js libraries and plugins-->
+<script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/simplebar/dist/simplebar.min.js"></script>
+<script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+<script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="vendor/drift-zoom/dist/Drift.min.js"></script>
+<!-- Main theme script-->
+<script src="js/theme.min.js"></script>
+</body>
+<script
+        src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+        crossorigin="anonymous"></script>
+<script>
+
+
+  const productos = [
+    {imagen:'1.gif', title: 'V - 5 Choco Vid', price: 0, description: ''},
+    {imagen:'3.gif', title: 'Café Coffe', price: 0, description: ''},
+    {imagen:'5.gif', title: 'Latte 3 en 1', price: 0, description: ''},
+    {imagen:'7.gif', title: 'Fibra-Vid Plus', price: 0, description: ''},
+    {imagen:'9.gif', title: 'Colágeno Hidrolizado', price: 0, description: ''},
+    {imagen:'11.gif', title: 'Espirulina Mix', price: 0, description: ''},
+    {imagen:'13.gif', title: 'Aloe Vera', price: 0, description: ''},
+    {imagen:'1a.gif', title: 'Artiflex', price: 0, description: ''},
+    {imagen:'2a.gif', title: 'Prosta-Forte', price: 0, description: ''},
+    {imagen:'3a.gif', title: 'Body-Esbelt', price: 0, description: ''},
+    {imagen:'4a.gif', title: 'Aloe Vera', price: 0, description: ''},
+    {imagen:'5a.gif', title: 'DiabeVid', price: 0, description: ''},
+  ];
+
+
+
+
+
+  $(document).ready(function() {
+    // Your jQuery code goes here
+    // For example, you can select an element and apply some changes to it
+    const $containerProd = $('#productos');
+    function addImagesToContainer(productosArray) {
+
+      productosArray.forEach((producto) => {
+        const container = document.getElementById('productos');
+        console.log('container',container)
+
+        const cardDiv = `
+                    <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
+                        <div class="card product-card">
+                            <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist">
+                                <i class="ci-heart"></i>
+                            </button>
+                            <a class="card-img-top d-block overflow-hidden" href="#">
+                            </a>
+                            <!-- Rest of the HTML content -->
+                        </div>
+                        <hr class="<div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
+                <div class="card product-card">
+                    <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left"
+                            title="Add to wishlist"><i class="ci-heart"></i></button>
+                    <a class="card-img-top d-block overflow-hidden" href="#"><img
+                            src="img/vid/productos/cara/${producto.imagen}" alt="Product"></a>
+                    <div class="card-body py-2">
+                        <a class="product-meta d-block fs-xs pb-1" href="#">${producto.title}</a>
+                        <h3 class="product-title fs-sm"><a >${producto.title}</a></h3>
+                        <div class="d-flex justify-content-between">
+                            <div class="product-price"><span class="text-accent"><small></small></span></div>
+                            <div class="star-rating">
+                            <i class="star-rating-icon ci-star-filled active"></i>
+                            <i class="star-rating-icon ci-star-filled active"></i>
+                                    <i class="star-rating-icon ci-star-filled active"></i>
+                                    <i class="star-rating-icon ci-star-filled active"></i>
+                                    <i class="star-rating-icon ci-star-filled active"></i>
+
+
+                            </div>
+                        </div>
+                    </div>
+                   <!-- <div class="card-body card-body-hidden">
+                        <div class="text-center"><a class="nav-link-style fs-ms" href="#quick-view"
+                                                    data-bs-toggle="modal"><i class="ci-eye align-middle me-1"></i>
+                            Mirada Rapida</a>
+                        </div>
+                    </div>-->
+                </div>
+                <hr class="d-sm-none">
+            </div>
+                `;
+
+        $containerProd.append(cardDiv);
+      });
+    }
+
+    addImagesToContainer(productos);
+
+
+  });
+
+
+
+
+</script>
+</html>
